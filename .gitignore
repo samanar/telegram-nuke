@@ -1,0 +1,5 @@
+session.txt
+.env
+dist
+.vscode
+node_modules
