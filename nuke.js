@@ -10,7 +10,7 @@ const apiId = parseInt(process.env.API_ID);
 const apiHash = process.env.API_HASH;
 
 // Folder you want to KEEP
-const TARGET_FOLDER_NAME = "keep";
+const TARGET_FOLDER_NAME = process.env.TARGET_FOLDER_NAME || "keep";
 
 const SESSION_FILE = "session.txt";
 
